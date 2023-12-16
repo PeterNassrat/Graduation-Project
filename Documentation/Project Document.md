@@ -1,33 +1,31 @@
-# Overview
+# REMOTE CONTROL HAND GESTURES
 
-# Objectives
+## Introduction
 
-# Scope
+- ### Overview
 
-# Deliverables
+- ### Objectives
 
-# Timeline
+## Scope
 
-# Stakeholders
+## Requirements
 
-# Team
+## Timeline
 
-# Risk Management
+## Stakeholders
 
-# Budget and Resources
+## Team
 
-# Communication Plan
+## Risk Management
 
-# Quality Standards
+## Budget and Resources
 
-# Change Management
+## Communication Plan
 
-# Monitoring and Evaluation
+## Monitoring and Evaluation
 
-# Issues Log
+## Lessons Learned
 
-# Lessons Learned
+## Closure Criteria
 
-# Closure Criteria
-
-# Appendices
+## Appendices
