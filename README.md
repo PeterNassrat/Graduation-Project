@@ -1,2 +1,2 @@
 # Graduation-Project
-#### RMOTE CONTROL HAND GESTURES
+#### HAND REMOTE CONTROL
