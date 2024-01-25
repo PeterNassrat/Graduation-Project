@@ -77,9 +77,19 @@ The way that the hand control will work is that we will use one hand as a **mode
     - ### Compatibility:
 
         Ensure compatibility with a wide range of computer systems, operating systems, and hardware configurations.
-    - ### 
+    - ### Maintainability:
 
+        Design the system in a modular and maintainable way to facilitate future updates, improvements, and bug fixes.
+    - ### Portability:
 
+        The system should be portable across different devices, allowing users to control the mouse through hand gestures on various platforms.
+    - ### Response Time:
+
+        The mouse cursor should respond to hand movements without perceptible delay, providing a seamless and responsive user experience.
+    - ### Adaptability:
+
+        The system must adapt to changes in hand landmark patterns caused by variations in hand positions, orientations, and gestures.
+    
 ## Timeline
 
 ## Stakeholders
