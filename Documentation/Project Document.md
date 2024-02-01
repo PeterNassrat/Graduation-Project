@@ -104,6 +104,34 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 </font>
 
 ## Budget and Resources
+- ### Resources 
+    Human Resources:
+    - ### Software Developer:
+
+        Role: Develop software for hand landmark detection and mouse control.
+        Responsibilities: Code implementation, testing, and debugging.
+        
+    Skills and Expertise:
+    - ### Software Development:
+        Proficiency in Python
+        Experience in computer vision and image processing. 
+
+    Development Tools:
+    - ### Computer Vision Libraries:
+        OpenCV (cv2) :
+        It provides tools for image and video processing, including functions for image manipulation, feature detection, and object tracking.
+
+        MediaPipe (mediapipe) :
+        MediaPipe is a library developed by Google that offers solutions for various perception tasks, including hand tracking.
+
+        Autopy (autopy):
+        Autopy is a library for automating mouse and keyboard actions. It can be used to simulate mouse clicks, movements, and keyboard input.
+
+    Equipment:
+    - ### Sensors :
+        Laptop camera OR External cameras for computers
+    
+
 
 ## Communication Plan
 
