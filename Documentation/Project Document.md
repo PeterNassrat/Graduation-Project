@@ -1,9 +1,29 @@
 # HAND REMOTE CONTROL
 
+# Contents
+<font size="4">
+ 
+1. [Introduction](#introduction)
+2. [Scope](#scope)
+3. [Requirements](#requirements)
+4. [Timeline](#timeline)
+5. [Stakeholders](#stakeholders)
+6. [Team](#team)
+7. [Risk Management](#risk-management)
+8. [Resources](#resources)
+9. [Communication Plan](#communication-plan)
+10. [Monitoring and Evaluation](#monitoring-and-evaluation)
+11. [Lessons Learned](#lessons-learned)
+12. [Closure Criteria](#closure-criteria)
+13. [Appendices](#appendices)
+
+</font>
+
 ## Introduction
 
+<a id="introdution"></a>
 <font size="4">
-
+  
 - **Overview:** <br> This project helps us control devices using hand remotely. <br> The purposed AI virtual mouse system can be used to overcome problems in the real world such as situations where there is no space to use a physical mouse and also for the COVID-19 situation, it is not safe to use the devices by touching them because it may result in a possible situation of the spread of the virus by touching the devices.
 - **Objectives:** <br> The proposed AI virtual mouse can be used to overcome these problems since hand gestures and hand tip detection is used to control the PC mouse functions by using a webcam or a built-in camera. <br>
   **_Some applications_** **:** <br>
@@ -19,6 +39,7 @@
 
 ## Scope
 
+<a id="scope"></a>
 <font size="4">
 
 Our goal is to control a laptop or desktop remotely using our hands – **_the left hand and the right hand_** – by connecting the **mouse** and the **keyboard** functions to an internal or external **camera**.
@@ -30,8 +51,8 @@ We are eager to learn and overcome the challenges that this technology may face 
 This technology can be useful for many purposes, such as **presentation** and **lecturing** and **personal use**. It can make controlling a laptop easier and more fun just by using our hands.
 
 We will start by using two pretrained models that are built by Google developers.
-- The first one is the **Hand landmark detection** model.
-- The second one is the **Gesture recognition** model.
+- The first one is the [**Hand landmark detection**](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) model.
+- The second one is the [**Gesture recognition**](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer) model.
 
 *_We will respect the license agreement and use these models according to the terms and conditions_*.
 
@@ -43,6 +64,7 @@ The way that the hand control will work is that we will use one hand as a **mode
 
 ## Requirements
 
+<a id="requirements"></a>
 <font size="4">
  
 - **Functional Requirements**:
@@ -73,12 +95,19 @@ The way that the hand control will work is that we will use one hand as a **mode
    
 ## Timeline
 
+<a id="timeline"></a>
+
 ## Stakeholders
+
+<a id="stakeholders"></a>
 
 ## Team
 
+<a id="team"></a>
+
 ## Risk Management
 
+<a id="risk-management"></a>
 <font size="4">
 
 - **Errors in detection**:
@@ -114,6 +143,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Resources
 
+<a id="resources"></a>
 <font size="4">
     
  - **Human Resources:**
@@ -131,13 +161,13 @@ implement adaptive algorithms that adjust to varying environmental conditions an
  - **Development Tools:**
    
    **_Computer Vision Libraries_** **:**
-   - **OpenCV (cv2):** <br>
+   - [**OpenCV (cv2):**](https://opencv.org/) <br>
    It provides tools for image and video processing, including functions for image manipulation, feature detection, and object tracking.
 
-   - **MediaPipe (mediapipe):** <br>
+   - [**MediaPipe (mediapipe):**](https://developers.google.com/mediapipe) <br>
    MediaPipe is a library developed by Google that offers solutions for various perception tasks, including hand tracking.
 
-   - **Autopy (autopy):** <br>
+   - [**Autopy (autopy):**](https://pypi.org/project/autopy/) <br>
    Autopy is a library for automating mouse and keyboard actions. It can be used to simulate mouse clicks, movements, and keyboard input.
 
  - **Equipment:**
@@ -149,6 +179,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Communication Plan
 
+<a id="communication-plan"></a>
 <font size="4">
 
 1. **Communication Group on WhatsApp:**
@@ -165,6 +196,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Monitoring and Evaluation
 
+<a id="monitoring-and-evaluation"></a>
 <font size="4">
 
 1. **Project Milestones:**
@@ -198,6 +230,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Lessons Learned
 
+<a id="lessons-learned"></a>
 <font size="4">
 
 1. **User Feedback Importance:** <br> Understand the value of continuous user feedback throughout the development process. Users can provide insights into usability, identify potential issues, and suggest improvements.
@@ -222,6 +255,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Closure Criteria
 
+<a id="closure-criteria"></a>
 <font size="4">
 
 1. **Functionality:** <br> Ensure that the hand remote control system is capable of effectively controlling mouse functions on a laptop. Verify that the mode selector and mode executor hands work seamlessly together.
@@ -245,3 +279,5 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 </font>
 
 ## Appendices
+
+<a id="appendices"></a>
