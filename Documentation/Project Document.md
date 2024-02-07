@@ -2,9 +2,20 @@
 
 ## Introduction
 
-- ### Overview
- 
-- ### Objectives
+<font size="4">
+
+- **Overview:** <br> This project helps us control devices using hand remotely. <br> The purposed AI virtual mouse system can be used to overcome problems in the real world such as situations where there is no space to use a physical mouse and also for the COVID-19 situation, it is not safe to use the devices by touching them because it may result in a possible situation of the spread of the virus by touching the devices.
+- **Objectives:** <br> The proposed AI virtual mouse can be used to overcome these problems since hand gestures and hand tip detection is used to control the PC mouse functions by using a webcam or a built-in camera. <br>
+  **_Some applications_** **:** <br>
+  - The COVID-19 situation, it is not safe to use the devices by touching them because it may result in a possible situation of spread of the virus by touching the devices, so it helps us to reduce the spread of the virus.
+  - Smart homes, it controls in devices such as lights and thermostats through hand gestures for a seamless and convenient home automation experience.
+  - Gaming and Entertainment, it enhances gaming experiences by allowing players to control characters, perform in-game actions and navigate virtual worlds using hand gestures.
+- **Review on deep learning:** <br> Deep learning is a subfield of machine learning that involves training artificial neural networks to perform tasks without explicit programming. It relies on algorithms known as artificial neural networks, which are inspired by the structure and functioning of the human brain. These networks consist of interconnected layers of nodes (artificial neurons) that process and transform input data to produce an output. <br>
+**Input layer:** Data enters through the input layer. <br>
+**Hidden layers:** Hidden layers process and transport data to other layers. <br>
+**Output layer:** The final result or prediction is made in the output layer. <br>
+  
+</font>
 
 ## Scope
 
@@ -103,39 +114,89 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 </font>
 
-## Budget and Resources
-- ### Resources 
-    Human Resources:
-    - ### Software Developer:
+## Resources
 
-        Role: Develop software for hand landmark detection and mouse control.
-        Responsibilities: Code implementation, testing, and debugging.
-        
-    Skills and Expertise:
-    - ### Software Development:
-        Proficiency in Python
-        Experience in computer vision and image processing. 
-
-    Development Tools:
-    - ### Computer Vision Libraries:
-        OpenCV (cv2) :
-        It provides tools for image and video processing, including functions for image manipulation, feature detection, and object tracking.
-
-        MediaPipe (mediapipe) :
-        MediaPipe is a library developed by Google that offers solutions for various perception tasks, including hand tracking.
-
-        Autopy (autopy):
-        Autopy is a library for automating mouse and keyboard actions. It can be used to simulate mouse clicks, movements, and keyboard input.
-
-    Equipment:
-    - ### Sensors :
-        Laptop camera OR External cameras for computers
+<font size="4">
     
+ - **Human Resources:**
+ 
+   **_Software Developer_** **:**
+   - **Role:** Develop software for hand landmark detection and mouse control.
+   - **Responsibilities:** Code implementation, testing, and debugging.
+            
+ - **Skills and Expertise:**
+   
+   **_Software Development_** **:**
+   - Proficiency in Python
+   - Experience in computer vision and image processing. 
 
+ - **Development Tools:**
+   
+   **_Computer Vision Libraries_** **:**
+   - **OpenCV (cv2):** <br>
+   It provides tools for image and video processing, including functions for image manipulation, feature detection, and object tracking.
+
+   - **MediaPipe (mediapipe):** <br>
+   MediaPipe is a library developed by Google that offers solutions for various perception tasks, including hand tracking.
+
+   - **Autopy (autopy):** <br>
+   Autopy is a library for automating mouse and keyboard actions. It can be used to simulate mouse clicks, movements, and keyboard input.
+
+ - **Equipment:**
+   
+   **_Sensors_** **:** <br>
+   Laptop camera or External cameras for computers
+     
+</font>
 
 ## Communication Plan
 
+<font size="4">
+
+1. **Communication Group on WhatsApp:**
+   - We created a group on the WhatsApp application as a quick means of communication.
+   - Use the group to send any new amendments to the project, updates to our work plan, or changes in the date of the weekly meeting on the Google Meeting platform.
+2. **Weekly Project Meeting:**
+   - We hold a weekly meeting every Friday at 11 am.
+   - The purpose of the meeting is to discuss what has been accomplished in the project and plan for additions in the upcoming week.
+
+3. **GitHub Repository Updates:**
+   - We upload all the additions and modifications we have made to GitHub.
+
+</font>
+
 ## Monitoring and Evaluation
+
+<font size="4">
+
+1. **Project Milestones:**
+   - We have defined clear project milestones and timeline.
+   - We monitor progress toward these milestones regularly at our weekly meeting to ensure the project is on track.
+
+2. **Track the Progress of Tasks:**
+   - We track the progress of individual and group tasks through a task board on the Google Spreadsheet application.
+   - Completed tasks are marked with a check mark in the sheet.
+   - We update our task boards regularly and review completed, ongoing, and upcoming tasks.
+
+3. **Key Performance Indicators (KPIs):**
+   - We have identified key performance indicators aligning with project objectives, such as recognizing and identifying hand joints and responding to commands on their movements.
+   - Regular evaluations of these KPIs are conducted to measure the overall success of the hand gesture mouse control project.
+
+4. **Usage Tests:**
+   - We conducted several hands-on code testing sessions to collect feedback on the hand gesture control system.
+   - Use this feedback to make necessary adjustments and improvements.
+
+5. **Document Review:**
+   - We periodically update the project documentation, ensuring it is easily accessible and useful for all team members.
+
+6. **Budget and Resource Management:**
+   - We utilized our study laptops to work on the project, eliminating the need for additional budget spending.
+
+7. **Training and Skills Development:**
+   - We assessed the team's skill levels and identified areas that require training and development.
+   - Team members are enhancing their skills related to the project, such as developing proficiency in writing code in Python and using GitHub.
+
+</font>
 
 ## Lessons Learned
 
