@@ -52,11 +52,9 @@ The way that the hand control will work is that we will use one hand as a **mode
     - **Mouse Movement**:<br> Translate the movements of detected hand landmarks into corresponding mouse movements on the screen.
     - **Click Detection**:<br> Identify gestures or hand configurations representing left-click, right-click, and other click actions.
     - **Drag and Drop**:<br> Implement the ability to perform drag-and-drop actions by recognizing specific hand movements.
-    - **Scrolling**:<br> Allow users to scroll through documents or images using hand gestures.
-    - **Tab Switching**:<br> The user should be able to switch between open tabs or applications on the computer using specific hand gestures.
     - **Real-time Responsiveness**:<br> Ensure real-time responsiveness in updating the mouse cursor based on changes in hand landmark positions.  
     - **Error Handling**:<br> Implement mechanisms to handle inaccuracies in hand landmark detection, providing feedback to the user when needed.
-    - **User Interface Feedback**:<br> Provide visual or auditory feedback to indicate successful hand landmark detection and corresponding mouse actions.
+    - **User Interface Feedback**:<br> Provide visual feedback to indicate successful hand landmark detection and corresponding mouse actions.
 - **Non-Functional Requirements**:
     - **Performance**:<br> The system must respond to changes in hand landmark positions within 100 milliseconds to provide a real-time user experience and the system should be able to process frames at a rate of up to 30 fps
     - **Accuracy**: <br>The hand landmark detection algorithm must achieve an accuracy rate of at least 95% in identifying key points on the user's hand.
