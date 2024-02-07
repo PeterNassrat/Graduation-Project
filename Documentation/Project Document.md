@@ -1,6 +1,6 @@
 # HAND REMOTE CONTROL
 
-# Contents
+## Contents
 <font size="4">
  
 1. [Introduction](#introduction)
