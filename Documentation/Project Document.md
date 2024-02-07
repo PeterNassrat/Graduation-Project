@@ -84,7 +84,7 @@ The way that the hand control will work is that we will use one hand as a **mode
 - **Errors in detection**:
 
   **_Solutions_**:
-  - **Machine learning training**:<br> continuously train the AI model with diverse datasets to improve its ability to recognize different scenarios and reduce false positives or negatives.
+  - **Machine learning training**:<br> continuously train the gesture recognition model with diverse datasets to improve its ability to recognize different scenarios and reduce false positives or negatives.
   - **Regular maintenance**:<br> establish a routine for maintenance and calibration to ensure that sensors and components remain accurate over time.
   - **Testing and simulation**:<br> regularly test the system in controlled environments and simulate various scenarios to identify potential detection errors and refine the algorithms accordingly.
 
