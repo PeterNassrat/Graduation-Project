@@ -96,14 +96,70 @@ The way that the hand control will work is that we will use one hand as a **mode
 ## Timeline
 
 <a id="timeline"></a>
+![Timeline - Schedule](https://github.com/PeterNassrat/Graduation-Project/assets/93524169/e016356a-27cf-482b-bdd7-eb80ebdae0e3)
+![Timeline - Diagram](https://github.com/PeterNassrat/Graduation-Project/assets/93524169/6581427c-38f4-40b6-b09d-3fa913fccb38)
+
+<font size="4">
+
+**_Phases_** **:**
+1.	**Research:** <br>
+Explore the project idea and its potential
+2.	**Scope:** <br>
+Outline the project goals, deliverables, and constraints
+3.	**Plan:** <br>
+Design a project schedule and budget
+4.	**Prototype:** <br>
+Build a mock-up of the project functionality
+5.	**Presentation:** <br>
+prepare a detailed demonstration of the project’s objectives, strategies, and outcomes, aimed at conveying its overall narrative and progress.
+6.	**Environment:** <br>
+Configure the development tools and platforms
+7.	**Verification:** <br>
+Check the development environment for errors or issues
+8.	**Implementation:** <br>
+Code each feature of the project as per the requirements
+9.	**Testing:** <br>
+Debug each feature and ensure its quality and performance
+10.	**Evaluation:** <br>
+Assess the whole project against the success criteria
+11.	**Terms:** <br>
+Define the legal and ethical aspects of the application
+12.	**Deployment:** <br>
+Launch the application to the intended users or customers
+13.	**Guide:** <br>
+Create a tutorial that teaches how to use the application
+
+</font>
 
 ## Stakeholders
 
 <a id="stakeholders"></a>
+<font size="4">
+
+- **Doctors:** <br>
+It helps doctors in surgeries and examinations that require using a computer and makes it faster, as it helps them control their devices remotely.
+- **Professors and Teaching Assistants:** <br>
+It helps them control their devices remotely, making it easier to use them in lectures.
+- **The Public:** <br>
+People in daily use to control their laptops in an easier and more enjoyable way
+
+</font>
 
 ## Team
 
 <a id="team"></a>
+<font size="4">
+
+|Name|Role|Email|Phone Number|
+|----|----|-----|------------|
+|Kirolos Ayman|Project Manager|[kerls.ayman713@compit.aun.edu.eg](mailto:kerls.ayman713@compit.aun.edu.eg)|+201279583355|
+|Marcos Shehata|Business Analyst|[morqos.shehata331@compit.aun.edu.eg](mailto:morqos.shehata331@compit.aun.edu.eg)|+201208017374|
+|Marina Alashkar|Resource Manager|[marina.alashkar506@compit.aun.edu.eg](mailto:marina.alashkar506@compit.aun.edu.eg)|+201283906008|
+|Marly Monsef|Quality Assurance (QA)|[Marly.monsef326@compit.aun.edu.eg](mailto:Marly.monsef326@compit.aun.edu.eg)|+201271453290|
+|Mina Samir|Software Developer|[mina.20375830@compit.aun.edu.eg](mailto:mina.20375830@compit.aun.edu.eg)|+201225868088|
+|Peter Nasrat|Software Architect|[Peter.20377281@compit.aun.edu.eg](mailto:Peter.20377281@compit.aun.edu.eg)|+201273770052|
+
+</font>
 
 ## Risk Management
 
