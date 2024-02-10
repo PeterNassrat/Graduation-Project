@@ -1,9 +1,29 @@
 # HAND REMOTE CONTROL
 
+## Contents
+<font size="4">
+ 
+1. [Introduction](#introduction)
+2. [Scope](#scope)
+3. [Requirements](#requirements)
+4. [Timeline](#timeline)
+5. [Stakeholders](#stakeholders)
+6. [Team](#team)
+7. [Risk Management](#risk-management)
+8. [Resources](#resources)
+9. [Communication Plan](#communication-plan)
+10. [Monitoring and Evaluation](#monitoring-and-evaluation)
+11. [Lessons Learned](#lessons-learned)
+12. [Closure Criteria](#closure-criteria)
+13. [Appendices](#appendices)
+
+</font>
+
 ## Introduction
 
+<a id="introdution"></a>
 <font size="4">
-
+  
 - **Overview:** <br> This project helps us control devices using hand remotely. <br> The purposed AI virtual mouse system can be used to overcome problems in the real world such as situations where there is no space to use a physical mouse and also for the COVID-19 situation, it is not safe to use the devices by touching them because it may result in a possible situation of the spread of the virus by touching the devices.
 - **Objectives:** <br> The proposed AI virtual mouse can be used to overcome these problems since hand gestures and hand tip detection is used to control the PC mouse functions by using a webcam or a built-in camera. <br>
   **_Some applications_** **:** <br>
@@ -19,6 +39,7 @@
 
 ## Scope
 
+<a id="scope"></a>
 <font size="4">
 
 Our goal is to control a laptop or desktop remotely using our hands – **_the left hand and the right hand_** – by connecting the **mouse** and the **keyboard** functions to an internal or external **camera**.
@@ -30,8 +51,8 @@ We are eager to learn and overcome the challenges that this technology may face 
 This technology can be useful for many purposes, such as **presentation** and **lecturing** and **personal use**. It can make controlling a laptop easier and more fun just by using our hands.
 
 We will start by using two pretrained models that are built by Google developers.
-- The first one is the **Hand landmark detection** model.
-- The second one is the **Gesture recognition** model.
+- The first one is the [**Hand landmark detection**](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) model.
+- The second one is the [**Gesture recognition**](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer) model.
 
 *_We will respect the license agreement and use these models according to the terms and conditions_*.
 
@@ -43,6 +64,7 @@ The way that the hand control will work is that we will use one hand as a **mode
 
 ## Requirements
 
+<a id="requirements"></a>
 <font size="4">
  
 - **Functional Requirements**:
@@ -73,12 +95,75 @@ The way that the hand control will work is that we will use one hand as a **mode
    
 ## Timeline
 
+<a id="timeline"></a>
+![Timeline - Schedule](https://github.com/PeterNassrat/Graduation-Project/assets/93524169/e016356a-27cf-482b-bdd7-eb80ebdae0e3)
+![Timeline - Diagram](https://github.com/PeterNassrat/Graduation-Project/assets/93524169/6581427c-38f4-40b6-b09d-3fa913fccb38)
+
+<font size="4">
+
+**_Phases_** **:**
+1.	**Research:** <br>
+Explore the project idea and its potential
+2.	**Scope:** <br>
+Outline the project goals, deliverables, and constraints
+3.	**Plan:** <br>
+Design a project schedule and budget
+4.	**Prototype:** <br>
+Build a mock-up of the project functionality
+5.	**Presentation:** <br>
+prepare a detailed demonstration of the project’s objectives, strategies, and outcomes, aimed at conveying its overall narrative and progress.
+6.	**Environment:** <br>
+Configure the development tools and platforms
+7.	**Verification:** <br>
+Check the development environment for errors or issues
+8.	**Implementation:** <br>
+Code each feature of the project as per the requirements
+9.	**Testing:** <br>
+Debug each feature and ensure its quality and performance
+10.	**Evaluation:** <br>
+Assess the whole project against the success criteria
+11.	**Terms:** <br>
+Define the legal and ethical aspects of the application
+12.	**Deployment:** <br>
+Launch the application to the intended users or customers
+13.	**Guide:** <br>
+Create a tutorial that teaches how to use the application
+
+</font>
+
 ## Stakeholders
+
+<a id="stakeholders"></a>
+<font size="4">
+
+- **Doctors:** <br>
+It helps doctors in surgeries and examinations that require using a computer and makes it faster, as it helps them control their devices remotely.
+- **Professors and Teaching Assistants:** <br>
+It helps them control their devices remotely, making it easier to use them in lectures.
+- **The Public:** <br>
+People in daily use to control their laptops in an easier and more enjoyable way
+
+</font>
 
 ## Team
 
+<a id="team"></a>
+<font size="4">
+
+|Name|Role|Email|Phone Number|
+|----|----|-----|------------|
+|Kirolos Ayman|Project Manager|[kerls.ayman713@compit.aun.edu.eg](mailto:kerls.ayman713@compit.aun.edu.eg)|+201279583355|
+|Marcos Shehata|Business Analyst|[morqos.shehata331@compit.aun.edu.eg](mailto:morqos.shehata331@compit.aun.edu.eg)|+201208017374|
+|Marina Alashkar|Resource Manager|[marina.alashkar506@compit.aun.edu.eg](mailto:marina.alashkar506@compit.aun.edu.eg)|+201283906008|
+|Marly Monsef|Quality Assurance (QA)|[Marly.monsef326@compit.aun.edu.eg](mailto:Marly.monsef326@compit.aun.edu.eg)|+201271453290|
+|Mina Samir|Software Developer|[mina.20375830@compit.aun.edu.eg](mailto:mina.20375830@compit.aun.edu.eg)|+201225868088|
+|Peter Nasrat|Software Architect|[Peter.20377281@compit.aun.edu.eg](mailto:Peter.20377281@compit.aun.edu.eg)|+201273770052|
+
+</font>
+
 ## Risk Management
 
+<a id="risk-management"></a>
 <font size="4">
 
 - **Errors in detection**:
@@ -114,6 +199,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Resources
 
+<a id="resources"></a>
 <font size="4">
     
  - **Human Resources:**
@@ -131,13 +217,13 @@ implement adaptive algorithms that adjust to varying environmental conditions an
  - **Development Tools:**
    
    **_Computer Vision Libraries_** **:**
-   - **OpenCV (cv2):** <br>
+   - [**OpenCV (cv2):**](https://opencv.org/) <br>
    It provides tools for image and video processing, including functions for image manipulation, feature detection, and object tracking.
 
-   - **MediaPipe (mediapipe):** <br>
+   - [**MediaPipe (mediapipe):**](https://developers.google.com/mediapipe) <br>
    MediaPipe is a library developed by Google that offers solutions for various perception tasks, including hand tracking.
 
-   - **Autopy (autopy):** <br>
+   - [**Autopy (autopy):**](https://pypi.org/project/autopy/) <br>
    Autopy is a library for automating mouse and keyboard actions. It can be used to simulate mouse clicks, movements, and keyboard input.
 
  - **Equipment:**
@@ -149,6 +235,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Communication Plan
 
+<a id="communication-plan"></a>
 <font size="4">
 
 1. **Communication Group on WhatsApp:**
@@ -165,6 +252,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Monitoring and Evaluation
 
+<a id="monitoring-and-evaluation"></a>
 <font size="4">
 
 1. **Project Milestones:**
@@ -198,6 +286,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Lessons Learned
 
+<a id="lessons-learned"></a>
 <font size="4">
 
 1. **User Feedback Importance:** <br> Understand the value of continuous user feedback throughout the development process. Users can provide insights into usability, identify potential issues, and suggest improvements.
@@ -222,6 +311,7 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 
 ## Closure Criteria
 
+<a id="closure-criteria"></a>
 <font size="4">
 
 1. **Functionality:** <br> Ensure that the hand remote control system is capable of effectively controlling mouse functions on a laptop. Verify that the mode selector and mode executor hands work seamlessly together.
@@ -245,3 +335,5 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 </font>
 
 ## Appendices
+
+<a id="appendices"></a>
