@@ -15,7 +15,6 @@
 10. [Monitoring and Evaluation](#monitoring-and-evaluation)
 11. [Lessons Learned](#lessons-learned)
 12. [Closure Criteria](#closure-criteria)
-13. [Appendices](#appendices)
 
 </font>
 
@@ -50,15 +49,23 @@ We are eager to learn and overcome the challenges that this technology may face 
 
 This technology can be useful for many purposes, such as **presentation** and **lecturing** and **personal use**. It can make controlling a laptop easier and more fun just by using our hands.
 
-We will start by using two pretrained models that are built by Google developers.
-- The first one is the [**Hand landmark detection**](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) model.
-- The second one is the [**Gesture recognition**](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer) model.
+We will start by using a pretrained model that are built by Google developers.
+- [**Hand landmark detection**](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) model.
 
-*_We will respect the license agreement and use these models according to the terms and conditions_*.
+*_We will respect the license agreement and use the model according to the terms and conditions_*.
 
-The way that the hand control will work is that we will use one hand as a **mode selector** and the other hand as a **mode executor**. The modes that we will provide are:
-- **Mouse pointer mode**
-- ...
+The way that the hand control will work is that we will use one hand as a **mode selector or action executor** and the other hand as a **mode executor**. The modes and actions that we will provide are:
+- **Modes**
+  - **Double click mode**
+  - **Drag drop mode**
+- **Actions**
+  - **Scroll up**
+  - **Scroll down**
+  - **Zoom in** 
+  - **Zoom out**
+  - **Left arrow key**
+  - **Right arrow key**
+  - **Exit**
 
 </font>
 
@@ -333,7 +340,3 @@ implement adaptive algorithms that adjust to varying environmental conditions an
 9. **Documentation:** <br> Prepare comprehensive documentation, including user manuals and troubleshooting guides, to facilitate user understanding and support.
 
 </font>
-
-## Appendices
-
-<a id="appendices"></a>
